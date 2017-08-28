@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
 		3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140351F54800B00385BA5 /* ChatViewController.swift */; };
 		3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140371F54801C00385BA5 /* ChannelViewController.swift */; };
 		3AA1403E1F5483D200385BA5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1403D1F54835000385BA5 /* SWRevealViewController.m */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		34A8C42C8EB72C4147790D89 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3AA140351F54800B00385BA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AA140371F54801C00385BA5 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		3AA1403B1F54834F00385BA5 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		3AA140341F547FDF00385BA5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A1CD0891F54A09F00A67201 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,8 +101,8 @@
 		3ACCD7071F5353BC00051764 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
-				3AA140341F547FDF00385BA5 /* View */,
 				3AA140331F547FDB00385BA5 /* Model */,
+				3AA140341F547FDF00385BA5 /* View */,
 				3AA140321F547FCE00385BA5 /* Controller */,
 				3AE5B50F1F535D2500C2A301 /* Supporting Files */,
 				3ACCD7081F5353BC00051764 /* AppDelegate.swift */,
@@ -255,6 +258,7 @@
 			files = (
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,
 				3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */,
+				3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */,
 				3ACCD7091F5353BC00051764 /* AppDelegate.swift in Sources */,
 				3AA1403E1F5483D200385BA5 /* SWRevealViewController.m in Sources */,
 			);
