@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
+		3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */; };
 		3A79213B1F5883210046A0DB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213A1F5883210046A0DB /* AuthService.swift */; };
 		3A79213D1F588CDE0046A0DB /* RoundedEdgesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */; };
 		3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140351F54800B00385BA5 /* ChatViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		34A8C42C8EB72C4147790D89 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		3A79213A1F5883210046A0DB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedEdgesButton.swift; sourceTree = "<group>"; };
 		3AA140351F54800B00385BA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3A79213A1F5883210046A0DB /* AuthService.swift */,
+				3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				3ACC4A731F54AE5500446D76 /* LoginViewController.swift in Sources */,
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,
 				3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */,
+				3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */,
 				3A79213B1F5883210046A0DB /* AuthService.swift in Sources */,
 				3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */,
 				3ACE293C1F57231000F58D97 /* CreateAccountViewController.swift in Sources */,
