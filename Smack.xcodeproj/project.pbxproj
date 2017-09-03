@@ -13,6 +13,7 @@
 		3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */; };
 		3A79213B1F5883210046A0DB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213A1F5883210046A0DB /* AuthService.swift */; };
 		3A79213D1F588CDE0046A0DB /* RoundedEdgesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */; };
+		3A9C6EEC1F5C81B7000CC858 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C6EEB1F5C81B7000CC858 /* CircleImage.swift */; };
 		3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140351F54800B00385BA5 /* ChatViewController.swift */; };
 		3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140371F54801C00385BA5 /* ChannelViewController.swift */; };
 		3AA1403E1F5483D200385BA5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1403D1F54835000385BA5 /* SWRevealViewController.m */; };
@@ -34,6 +35,7 @@
 		3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		3A79213A1F5883210046A0DB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedEdgesButton.swift; sourceTree = "<group>"; };
+		3A9C6EEB1F5C81B7000CC858 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3AA140351F54800B00385BA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AA140371F54801C00385BA5 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		3AA1403B1F54834F00385BA5 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3A1CD0891F54A09F00A67201 /* GradientView.swift */,
 				3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */,
 				3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */,
+				3A9C6EEB1F5C81B7000CC858 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				3ACC4A731F54AE5500446D76 /* LoginViewController.swift in Sources */,
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,
 				3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */,
+				3A9C6EEC1F5C81B7000CC858 /* CircleImage.swift in Sources */,
 				3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */,
 				3A79213B1F5883210046A0DB /* AuthService.swift in Sources */,
 				3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */,

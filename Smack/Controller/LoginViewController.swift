@@ -13,12 +13,12 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountViewController.handleTap))
+        view.addGestureRecognizer(tap)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func handleTap() {
+        view.endEditing(true)
     }
     
     @IBAction func closePressed(_ sender: Any) {
@@ -28,6 +28,5 @@ class LoginViewController: UIViewController {
     @IBAction func createAccountButtonPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
     }
-    
 
 }
