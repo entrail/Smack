@@ -127,6 +127,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="8af-Zn-XXE" id="XAt-Lb-gQ0"/>
+                        <outlet property="userImg" destination="uZi-df-5rx" id="LDf-Ub-rnl"/>
                         <segue destination="1W6-lO-gwy" kind="show" identifier="toLogin" id="UR4-ii-7xH"/>
                     </connections>
                 </viewController>
@@ -400,11 +401,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dd1-ga-KG9" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="0eR-g8-Ta8"/>
-                            <constraint firstItem="XYY-G0-mYN" firstAttribute="centerY" secondItem="yYx-Sd-Py8" secondAttribute="centerY" constant="-18" id="7DX-vK-Mko"/>
                             <constraint firstItem="oTw-K8-M6T" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="GrK-uO-U1O"/>
+                            <constraint firstItem="Hmw-3D-qxq" firstAttribute="top" secondItem="XYY-G0-mYN" secondAttribute="bottom" constant="0.5" id="LC1-Sl-as0"/>
                             <constraint firstItem="oTw-K8-M6T" firstAttribute="top" secondItem="CaB-wb-Kdl" secondAttribute="bottom" constant="4" id="LFl-AD-s19"/>
                             <constraint firstItem="6Fx-tl-dgc" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="Lgb-XQ-CDy"/>
-                            <constraint firstItem="XYY-G0-mYN" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="WNp-zl-ynv"/>
+                            <constraint firstItem="XYY-G0-mYN" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="RJx-QG-HuH"/>
                             <constraint firstItem="CaB-wb-Kdl" firstAttribute="width" secondItem="Hmw-3D-qxq" secondAttribute="width" id="ZFh-7t-mjY"/>
                             <constraint firstItem="peL-c7-Yc2" firstAttribute="centerX" secondItem="yYx-Sd-Py8" secondAttribute="centerX" id="adQ-sF-2SB"/>
                             <constraint firstItem="dd1-ga-KG9" firstAttribute="top" secondItem="71w-HM-QGC" secondAttribute="top" constant="45" id="dKx-w3-E38"/>

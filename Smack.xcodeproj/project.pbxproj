@@ -24,6 +24,8 @@
 		3ACCD7101F5353BC00051764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD70F1F5353BC00051764 /* Assets.xcassets */; };
 		3ACCD7131F5353BC00051764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD7111F5353BC00051764 /* LaunchScreen.storyboard */; };
 		3ACE293C1F57231000F58D97 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACE293B1F57231000F58D97 /* CreateAccountViewController.swift */; };
+		3ADB4DB51F63FB9B00098A63 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB4DB31F63FB9B00098A63 /* ProfileViewController.swift */; };
+		3ADB4DB61F63FB9B00098A63 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB4DB41F63FB9B00098A63 /* ProfileViewController.xib */; };
 		6FCA005D0B1EE0614EAE3748 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A8C42C8EB72C4147790D89 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		3ACCD7121F5353BC00051764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ACCD7141F5353BC00051764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ACE293B1F57231000F58D97 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3ADB4DB31F63FB9B00098A63 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3ADB4DB41F63FB9B00098A63 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		43AB4E99C874C2B1FD373DA4 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		6125F8462777F05559D9C25C /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +95,7 @@
 				3ACC4A721F54AE5500446D76 /* LoginViewController.swift */,
 				3ACE293B1F57231000F58D97 /* CreateAccountViewController.swift */,
 				3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */,
+				3ADB4DB31F63FB9B00098A63 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 		3ACCD7071F5353BC00051764 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				3ADB4DB71F63FBBA00098A63 /* XIBs */,
 				3A7921391F5883090046A0DB /* Services */,
 				3ACC4A6F1F54A99600446D76 /* Utilities */,
 				3AA140331F547FDB00385BA5 /* Model */,
@@ -155,6 +161,14 @@
 				3ACCD7141F5353BC00051764 /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		3ADB4DB71F63FBBA00098A63 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3ADB4DB41F63FB9B00098A63 /* ProfileViewController.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		3AE5B50F1F535D2500C2A301 /* Supporting Files */ = {
@@ -240,6 +254,7 @@
 			files = (
 				3ACCD7131F5353BC00051764 /* LaunchScreen.storyboard in Resources */,
 				3ACCD7101F5353BC00051764 /* Assets.xcassets in Resources */,
+				3ADB4DB61F63FB9B00098A63 /* ProfileViewController.xib in Resources */,
 				3ACCD70E1F5353BC00051764 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +326,7 @@
 				3ACCD7091F5353BC00051764 /* AppDelegate.swift in Sources */,
 				3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */,
 				3AA1403E1F5483D200385BA5 /* SWRevealViewController.m in Sources */,
+				3ADB4DB51F63FB9B00098A63 /* ProfileViewController.swift in Sources */,
 				3A79213D1F588CDE0046A0DB /* RoundedEdgesButton.swift in Sources */,
 				3ACC4A711F54A9B000446D76 /* Constants.swift in Sources */,
 			);
