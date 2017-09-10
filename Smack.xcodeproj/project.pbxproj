@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1838C51F657FBF00BA4C90 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838C41F657FBF00BA4C90 /* MessageService.swift */; };
+		3A1838C71F657FF200BA4C90 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838C61F657FF200BA4C90 /* Channel.swift */; };
 		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
 		3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */; };
 		3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		34A8C42C8EB72C4147790D89 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1838C41F657FBF00BA4C90 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		3A1838C61F657FF200BA4C90 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			children = (
 				3A79213A1F5883210046A0DB /* AuthService.swift */,
 				3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */,
+				3A1838C41F657FBF00BA4C90 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		3AA140331F547FDB00385BA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A1838C61F657FF200BA4C90 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,7 +324,9 @@
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,
 				3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */,
 				3A9C6EEC1F5C81B7000CC858 /* CircleImage.swift in Sources */,
+				3A1838C71F657FF200BA4C90 /* Channel.swift in Sources */,
 				3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */,
+				3A1838C51F657FBF00BA4C90 /* MessageService.swift in Sources */,
 				3A79213B1F5883210046A0DB /* AuthService.swift in Sources */,
 				3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */,
 				3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */,
