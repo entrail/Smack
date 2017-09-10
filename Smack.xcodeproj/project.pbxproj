@@ -10,6 +10,8 @@
 		3A1838C51F657FBF00BA4C90 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838C41F657FBF00BA4C90 /* MessageService.swift */; };
 		3A1838C71F657FF200BA4C90 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838C61F657FF200BA4C90 /* Channel.swift */; };
 		3A1838C91F65878700BA4C90 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838C81F65878700BA4C90 /* ChannelCell.swift */; };
+		3A1838CC1F658C0900BA4C90 /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838CA1F658C0900BA4C90 /* AddChannelViewController.swift */; };
+		3A1838CD1F658C0900BA4C90 /* AddChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */; };
 		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
 		3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */; };
 		3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */; };
@@ -37,6 +39,8 @@
 		3A1838C41F657FBF00BA4C90 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		3A1838C61F657FF200BA4C90 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		3A1838C81F65878700BA4C90 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		3A1838CA1F658C0900BA4C90 /* AddChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
+		3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelViewController.xib; sourceTree = "<group>"; };
 		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				3ACE293B1F57231000F58D97 /* CreateAccountViewController.swift */,
 				3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */,
 				3ADB4DB31F63FB9B00098A63 /* ProfileViewController.swift */,
+				3A1838CA1F658C0900BA4C90 /* AddChannelViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				3ADB4DB41F63FB9B00098A63 /* ProfileViewController.xib */,
+				3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ACCD7131F5353BC00051764 /* LaunchScreen.storyboard in Resources */,
+				3A1838CD1F658C0900BA4C90 /* AddChannelViewController.xib in Resources */,
 				3ACCD7101F5353BC00051764 /* Assets.xcassets in Resources */,
 				3ADB4DB61F63FB9B00098A63 /* ProfileViewController.xib in Resources */,
 				3ACCD70E1F5353BC00051764 /* Main.storyboard in Resources */,
@@ -336,6 +343,7 @@
 				3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */,
 				3ACE293C1F57231000F58D97 /* CreateAccountViewController.swift in Sources */,
 				3ACCD7091F5353BC00051764 /* AppDelegate.swift in Sources */,
+				3A1838CC1F658C0900BA4C90 /* AddChannelViewController.swift in Sources */,
 				3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */,
 				3AA1403E1F5483D200385BA5 /* SWRevealViewController.m in Sources */,
 				3ADB4DB51F63FB9B00098A63 /* ProfileViewController.swift in Sources */,

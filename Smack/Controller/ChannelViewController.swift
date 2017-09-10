@@ -37,6 +37,12 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
 
+    @IBAction func addChannelPressed(_ sender: Any) {
+        let addChannel = AddChannelViewController()
+        addChannel.modalPresentationStyle = .custom
+        present(addChannel, animated: true, completion: nil)
+    }
+    
     @IBAction func prepareForUnwind(seque: UIStoryboardSegue) {}
     
     @objc func userDataDidChange(_ notif: Notification) {

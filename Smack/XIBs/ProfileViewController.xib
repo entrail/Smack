@@ -30,7 +30,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1C-dT-E6b" userLabel="bgView">
-                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S66-hg-i6U">
@@ -103,7 +103,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="G1C-dT-E6b" secondAttribute="bottom" id="k49-xx-iUH"/>
                 <constraint firstItem="G1C-dT-E6b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ljf-ZS-Hf4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S66-hg-i6U" secondAttribute="trailing" constant="20" id="tHk-Wu-AHp"/>
-                <constraint firstItem="G1C-dT-E6b" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wUa-Pc-JOO"/>
+                <constraint firstItem="G1C-dT-E6b" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wUa-Pc-JOO"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="24.5" y="52.5"/>
