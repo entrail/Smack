@@ -72,7 +72,7 @@
                                 <rect key="frame" x="0.0" y="125" width="375" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="N1s-Nx-Zn0">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="N1s-Nx-Zn0" customClass="ChannelCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N1s-Nx-Zn0" id="Cpz-U1-aaH">
@@ -80,18 +80,21 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXS-MN-yUV">
-                                                    <rect key="frame" x="33" y="12.5" width="65.5" height="20"/>
+                                                    <rect key="frame" x="20" y="12.5" width="65.5" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="gXS-MN-yUV" firstAttribute="leading" secondItem="Cpz-U1-aaH" secondAttribute="leadingMargin" constant="25" id="6SJ-KN-dh2"/>
+                                                <constraint firstItem="gXS-MN-yUV" firstAttribute="leading" secondItem="Cpz-U1-aaH" secondAttribute="leadingMargin" constant="12" id="6SJ-KN-dh2"/>
                                                 <constraint firstItem="gXS-MN-yUV" firstAttribute="centerY" secondItem="Cpz-U1-aaH" secondAttribute="centerY" id="uxQ-14-FeJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="gXS-MN-yUV" id="cki-7R-ck8"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -127,6 +130,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="8af-Zn-XXE" id="XAt-Lb-gQ0"/>
+                        <outlet property="tableView" destination="ZbN-2I-GQ0" id="LVs-S0-MUd"/>
                         <outlet property="userImg" destination="uZi-df-5rx" id="LDf-Ub-rnl"/>
                         <segue destination="1W6-lO-gwy" kind="show" identifier="toLogin" id="UR4-ii-7xH"/>
                     </connections>
