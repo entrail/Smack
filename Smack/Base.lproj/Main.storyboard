@@ -589,6 +589,7 @@
                         <viewLayoutGuide key="safeArea" id="ulx-dJ-Gen"/>
                     </view>
                     <connections>
+                        <outlet property="channelNameLbl" destination="AGY-0e-tWZ" id="L7S-Ag-xvP"/>
                         <outlet property="menuBtn" destination="cWB-Ko-hSf" id="jeC-0L-MrO"/>
                     </connections>
                 </viewController>
