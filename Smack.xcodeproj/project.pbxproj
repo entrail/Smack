@@ -13,6 +13,7 @@
 		3A1838CC1F658C0900BA4C90 /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1838CA1F658C0900BA4C90 /* AddChannelViewController.swift */; };
 		3A1838CD1F658C0900BA4C90 /* AddChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */; };
 		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
+		3A3256E21F6704E500F7346D /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3256E11F6704E500F7346D /* SocketService.swift */; };
 		3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */; };
 		3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */; };
 		3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */; };
@@ -42,6 +43,7 @@
 		3A1838CA1F658C0900BA4C90 /* AddChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
 		3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelViewController.xib; sourceTree = "<group>"; };
 		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3A3256E11F6704E500F7346D /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				3A79213A1F5883210046A0DB /* AuthService.swift */,
 				3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */,
 				3A1838C41F657FBF00BA4C90 /* MessageService.swift */,
+				3A3256E11F6704E500F7346D /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3256E21F6704E500F7346D /* SocketService.swift in Sources */,
 				3ACC4A731F54AE5500446D76 /* LoginViewController.swift in Sources */,
 				3A1838C91F65878700BA4C90 /* ChannelCell.swift in Sources */,
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,

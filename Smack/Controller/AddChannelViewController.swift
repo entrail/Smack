@@ -9,7 +9,7 @@
 import UIKit
 
 class AddChannelViewController: UIViewController {
-
+    
     // Outlets
     @IBOutlet weak var nameTxt: UITextField!
     @IBOutlet weak var channelDescriptionTxt: UITextField!
@@ -19,16 +19,24 @@ class AddChannelViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.setUpView()
     }
-
-
+    
+    
     @IBAction func closeModalPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func createChannelPressed(_ sender: Any) {
+        guard let channelName = nameTxt.text , nameTxt.text != "" else { return }
+        guard let channelDescription = channelDescriptionTxt.text else { return }
+        SocketService.instance.addChannel(channelName: channelName, channelDescription: channelDescription) { (success) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+        
     }
     
     func setUpView() {
