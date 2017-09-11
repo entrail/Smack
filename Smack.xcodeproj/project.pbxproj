@@ -14,6 +14,7 @@
 		3A1838CD1F658C0900BA4C90 /* AddChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */; };
 		3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD0891F54A09F00A67201 /* GradientView.swift */; };
 		3A3256E21F6704E500F7346D /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3256E11F6704E500F7346D /* SocketService.swift */; };
+		3A3256E41F67115A00F7346D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3256E31F67115A00F7346D /* Message.swift */; };
 		3A3508DC1F5AE4B800485490 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */; };
 		3A3508DE1F5AE6BF00485490 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */; };
 		3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */; };
@@ -44,6 +45,7 @@
 		3A1838CB1F658C0900BA4C90 /* AddChannelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelViewController.xib; sourceTree = "<group>"; };
 		3A1CD0891F54A09F00A67201 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		3A3256E11F6704E500F7346D /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		3A3256E31F67115A00F7346D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3A3508DB1F5AE4B800485490 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		3A3508DD1F5AE6BF00485490 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				3A1838C61F657FF200BA4C90 /* Channel.swift */,
+				3A3256E31F67115A00F7346D /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */,
 				3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */,
 				3A9C6EEC1F5C81B7000CC858 /* CircleImage.swift in Sources */,
+				3A3256E41F67115A00F7346D /* Message.swift in Sources */,
 				3A1838C71F657FF200BA4C90 /* Channel.swift in Sources */,
 				3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */,
 				3A1838C51F657FBF00BA4C90 /* MessageService.swift in Sources */,
