@@ -15,6 +15,7 @@ class MessageService {
     
     var channels = [Channel]()
     var messages = [Message]()
+    var unreadChannel = [String]()
     var selectedChannel: Channel?
     
     private init() {}
