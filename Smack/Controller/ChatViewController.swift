@@ -16,12 +16,13 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var messageTxt: UITextField!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var sendBtn: UIButton!
-    @IBOutlet weak var typingUserLbl: UILabel!
+//    @IBOutlet weak var typingUserLbl: UILabel!
     
     var isTyping = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpView()
         view.bindToKeyboard()
         tableView.delegate = self
         tableView.dataSource = self
@@ -51,32 +52,32 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
         }
         
-        SocketService.instance.getTypingUsers { (typingUsers) in
-            guard let channelId = MessageService.instance.selectedChannel?.id else { return }
-            var names = ""
-            var numberOfTypers = 0
-            
-            for (typingUser, channel) in typingUsers {
-                if typingUser != UserDataService.instance.name && channel == channelId {
-                    if names == "" {
-                        names = typingUser
-                    } else {
-                        names = "\(names), \(typingUser)"
-                    }
-                    numberOfTypers += 1
-                }
-            }
-            
-            if numberOfTypers > 0 && AuthService.instance.isLoggedIn {
-                var verb = "is"
-                if numberOfTypers > 1 {
-                    verb = "are"
-                }
-                self.typingUserLbl.text = "\(names) \(verb) typing a message"
-            } else {
-                self.typingUserLbl.text = ""
-            }
-        }
+//        SocketService.instance.getTypingUsers { (typingUsers) in
+//            guard let channelId = MessageService.instance.selectedChannel?.id else { return }
+//            var names = ""
+//            var numberOfTypers = 0
+//
+//            for (typingUser, channel) in typingUsers {
+//                if typingUser != UserDataService.instance.name && channel == channelId {
+//                    if names == "" {
+//                        names = typingUser
+//                    } else {
+//                        names = "\(names), \(typingUser)"
+//                    }
+//                    numberOfTypers += 1
+//                }
+//            }
+//
+//            if numberOfTypers > 0 && AuthService.instance.isLoggedIn {
+//                var verb = "is"
+//                if numberOfTypers > 1 {
+//                    verb = "are"
+//                }
+//                self.typingUserLbl.text = "\(names) \(verb) typing a message"
+//            } else {
+//                self.typingUserLbl.text = ""
+//            }
+//        }
         
         if AuthService.instance.isLoggedIn {
             AuthService.instance.findUserByEmail(completion: { (success) in
@@ -174,5 +175,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         return MessageService.instance.messages.count
     }
     
+    func setUpView() {
+        tableView.backgroundView = UIImageView(image: UIImage(named: "chatBG.png"))
+    }
     
 }

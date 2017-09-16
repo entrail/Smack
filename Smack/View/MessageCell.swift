@@ -15,6 +15,8 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var userNameLbl: UILabel!
     @IBOutlet weak var timeStampLbl: UILabel!
     @IBOutlet weak var messageBodyLbl: UILabel!
+    @IBOutlet weak var cellBackgroundView: UIView!
+    
     
     
     override func awakeFromNib() {
@@ -22,6 +24,13 @@ class MessageCell: UITableViewCell {
     }
 
     func configureCell(message: Message) {
+        cellBackgroundView.layer.cornerRadius = 10.0
+        if message.username == UserDataService.instance.name {
+            cellBackgroundView.layer.backgroundColor = UIColor(red: 218, green: 248, blue: 203).cgColor
+        } else {
+            cellBackgroundView.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0).cgColor
+        }
+        
         messageBodyLbl.text = message.message
         userNameLbl.text = message.username
         userImg.image = UIImage(named: message.userAvatar)

@@ -22,6 +22,7 @@
 		3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */; };
 		3A79213B1F5883210046A0DB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213A1F5883210046A0DB /* AuthService.swift */; };
 		3A79213D1F588CDE0046A0DB /* RoundedEdgesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */; };
+		3A97F8721F6D1FAB00CC878A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97F8711F6D1FAB00CC878A /* UIColorExtension.swift */; };
 		3A9C6EEC1F5C81B7000CC858 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C6EEB1F5C81B7000CC858 /* CircleImage.swift */; };
 		3AA140361F54800B00385BA5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140351F54800B00385BA5 /* ChatViewController.swift */; };
 		3AA140381F54801C00385BA5 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA140371F54801C00385BA5 /* ChannelViewController.swift */; };
@@ -55,6 +56,7 @@
 		3A5BEB6A1F59FC8D002F96EF /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		3A79213A1F5883210046A0DB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3A79213C1F588CDE0046A0DB /* RoundedEdgesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedEdgesButton.swift; sourceTree = "<group>"; };
+		3A97F8711F6D1FAB00CC878A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		3A9C6EEB1F5C81B7000CC858 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		3AA140351F54800B00385BA5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AA140371F54801C00385BA5 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3ACC4A701F54A9B000446D76 /* Constants.swift */,
+				3A97F8711F6D1FAB00CC878A /* UIColorExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				3A3256E41F67115A00F7346D /* Message.swift in Sources */,
 				3A1838C71F657FF200BA4C90 /* Channel.swift in Sources */,
 				3A5BEB6B1F59FC8D002F96EF /* UserDataService.swift in Sources */,
+				3A97F8721F6D1FAB00CC878A /* UIColorExtension.swift in Sources */,
 				3A1838C51F657FBF00BA4C90 /* MessageService.swift in Sources */,
 				3A79213B1F5883210046A0DB /* AuthService.swift in Sources */,
 				3A1CD08A1F54A09F00A67201 /* GradientView.swift in Sources */,
